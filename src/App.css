@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: linear-gradient(gray, black);
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 20px;
+}

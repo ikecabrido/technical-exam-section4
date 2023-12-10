@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Josefin+Sans&family=Offside&family=Open+Sans:wght@600&family=Pacifico&family=Poiret+One&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  font-size: 49px;
+  font-family: "Allerta Stencil", sans-serif;
+  background-color: blue;
+}

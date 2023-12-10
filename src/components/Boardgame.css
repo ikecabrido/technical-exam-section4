@@ -1,0 +1,61 @@
+.boardContainer {
+  width: 200px;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 20px;
+}
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+}
+.score {
+  margin-bottom: 2rem;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.score.card {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.board {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  padding: 20px;
+  border-radius: 20px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.piece {
+  width: 80px;
+  height: 80px;
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 50px;
+  box-shadow: 5px 5px 6px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.piece:hover {
+  transform: scale(1.2);
+  box-shadow: 6px 6px 8px;
+  background-color: darkgray;
+}
+.piece.card {
+  background-color: darkgray;
+  border-style: none;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 0.5px;
+}
+.row {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.col {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
